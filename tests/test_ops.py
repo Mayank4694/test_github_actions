@@ -1,10 +1,10 @@
-from src.math_ops import add, sub
+from src.math_ops import sum, sub
 
-def test_add():
-    assert add(2, 3) == 5
-    assert add(-1, 1) == 0
-    assert add(0, 0) == 0
-    assert add(-1, -1) == -2
+def test_sum():
+    assert sum(2, 3) == 5
+    assert sum(-1, 1) == 0
+    assert sum(0, 0) == 0
+    assert sum(-1, -1) == -2
 
 def test_sub():
     assert sub(2, 3) == -1
