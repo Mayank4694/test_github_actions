@@ -1,2 +1,2 @@
 # Simple python app
-branch = main
+branch = dev
